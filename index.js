@@ -1,5 +1,6 @@
 import axios from "axios";
 
+//token provided by iex cloud to access user account
 const public_token = 'pk_ae113656c0fe4cbb8f2053e075fa29b8' 
 const api = axios.create({
     baseURL: "https://cloud.iexapis.com/stable",
